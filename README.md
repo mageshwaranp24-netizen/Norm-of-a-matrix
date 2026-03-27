@@ -6,22 +6,22 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ## 1 NORM OF THE MATRIX:
- Step 1: Take the absolute value of each element in the matrix.
- Step 2: Find the sum of each column.
- Step 3: Compare all column sums.
- Step 4: The maximum column sum is the 1-norm.
+ ## Step 1: Take the absolute value of each element in the matrix.
+ ## Step 2: Find the sum of each column.
+ ## Step 3: Compare all column sums.
+ ## Step 4: The maximum column sum is the 1-norm.
 
 ## 2 NORM OF THE MATRIX:
- Step 1: Compute AᵀA (transpose of matrix × original matrix).
- Step 2: Find the eigenvalues of AᵀA.
- Step 3: Identify the largest eigenvalue.
- Step 4: Take the square root of it → this is the 2-norm.
+ ## Step 1: Compute AᵀA (transpose of matrix × original matrix).
+ ## Step 2: Find the eigenvalues of AᵀA.
+ ## Step 3: Identify the largest eigenvalue.
+ ## Step 4: Take the square root of it → this is the 2-norm.
 
 ## INFINITY NORM OF THE MATRIX:
- Step 1: Take the absolute value of each element in the matrix.
- Step 2: Find the sum of each row.
- Step 3: Compare all row sums.
- Step 4: The maximum row sum is the infinity norm.
+ ## Step 1: Take the absolute value of each element in the matrix.
+ ## Step 2: Find the sum of each row.
+ ## Step 3: Compare all row sums.
+ ## Step 4: The maximum row sum is the infinity norm.
 
 ## Program:
 ```Python
